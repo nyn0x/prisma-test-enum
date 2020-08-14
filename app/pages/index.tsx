@@ -1,5 +1,8 @@
 import { Head, Link } from "blitz"
-import { Tree } from "@prisma/client"
+// import { Tree } from "@prisma/client"
+// import { Tree } from "../../node_modules/.prisma/client/index"
+// import { Tree } from "../../node_modules/.prisma/client/index.d.ts"
+import { Tree } from "../../node_modules/.prisma/client"
 import { useEffect } from "react"
 
 const Home = () => {
